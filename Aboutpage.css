@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* setting background style */
+body {
+    background-image: repeating-linear-gradient(to bottom, #ffffff, #e3f3fd);
+}
+
+/* for main heading styling */
+header {
+    color: #0077B6;
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 1000;
+    margin: 20px;
+}
+
+/* Styling for first secion from welcome line */
+#welcomeSection {
+    margin: 10px
+}
+#welcomeLine {
+    text-align: center;
+    font-weight: bold;
+    color: #0077B6;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+#welcomeText {
+    color: rgb(155, 152, 152);
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px;
+    font-style: italic;
+}
+
+/* for main section styling */
+#section1,
+#section2,
+#section3 {
+    margin: 10px;
+    padding: 2px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0077B6;
+    margin: 5px;
+}
+
+p {
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(155, 152, 152);
+    margin: 10px;
+}
+
+ul {
+    margin: 5px;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+
+}
+
+li {
+    list-style: none;
+    color: rgb(162, 160, 160);
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: bolder;
+}
+
+li:before {
+   content: ""
+}
+
+/* styling for footer  */
+footer {
+    margin: 10px;
+}
+
+#footerHeading {
+    margin: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0077B6;
+    margin: 5px;
+}
+
+#footertext {
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(58, 148, 227);
+    margin: 5px;
+}
+
+/* style for button */
+button {
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background: #023E8A;
+}

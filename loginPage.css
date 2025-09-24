@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-style: italic;
+}
+
+/* for set login pafe box in center of page */
+body {
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom , skyblue , whitesmoke)
+}
+
+/* Login box container */
+div {
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(223deg ,aliceblue , lightcyan ,  whitesmoke , lightslategray);
+    box-shadow: 0px 0px 15px rgba(0 , 0 , 0 , 0.9);
+}
+
+/* heading of login page */
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+/* for set username , password and button in center  */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* setting style for text */
+p {
+    font-size: 22px;
+    margin: 15px;
+}
+
+/* setting style of button */
+button {
+    height: 32px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: darkgray;
+    font-weight: bolder;
+    background-color: #fff;
+}
+
+/* hover and active state for button */
+button:hover {
+   transform: scale(10px, 10px);
+}
+
+button:active {
+    border: 2px solid whitesmoke;
+}
+
+/* setting height and width of input box */
+input {
+    height: 24px;
+    width: 180px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* hover , active and focus for input function */
+input:hover {
+    border: 2px solid #ff8804;
+}
+
+input:active {
+    border: 2px solid green;
+}
+
+input:focus {
+    border: 2px solid orange;
+}
+
+
+/* For return home page */
+a {
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
